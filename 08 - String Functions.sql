@@ -26,7 +26,11 @@ FROM employee_demographics;
 SELECT first_name, REPLACE(first_name, 'a', 'z')
 FROM employee_demographics;
 
-SELECT LOCATE('x', 'Alexander');
+SELECT LOCATE('e', 'Alexander');
+
+SELECT LOCATE('a', 'banana') AS first_pos,
+       LOCATE('a', 'banana', LOCATE('a', 'banana') + 1) AS second_pos,
+       LOCATE('a', 'banana', LOCATE('a', 'banana', LOCATE('a', 'banana') + 1) + 1) AS third_pos;
 
 SELECT first_name, LOCATE('An', first_name)
 FROM employee_demographics;
