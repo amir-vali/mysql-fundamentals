@@ -1,18 +1,33 @@
-# MySQL Learning Notes
+# MySQL Fundamentals
 
-This repository contains my SQL scripts created while following the
-"MySQL Beginner to Advanced" YouTube course by Alex The Analyst.
+This repository contains a structured collection of SQL scripts covering the essential concepts of MySQL.  
+It serves as a consolidated reference for fundamental topics and hands-on practice across the SQL ecosystem.
 
-The files `01 - Select.sql` to `15 - Triggers and Events.sql`
-are practice scripts for different SQL topics:
-SELECT / WHERE / JOINs / UNION / CASE / SUBQUERIES /
-WINDOW FUNCTIONS / CTEs / TEMP TABLES / STORED PROCEDURES / TRIGGERS.
+## Contents
 
-Files `16 - Data Cleaning.sql` and `17 - Exploratory Data Analysis.sql`
-are mini-projects where I clean and analyze a real layoffs dataset.
+The files in this repository cover a wide range of foundational MySQL topics, including:
 
-Original course & dataset:
+- Basic queries (SELECT, WHERE, ORDER BY)
+- Aggregations and grouping
+- JOINs and set operations
+- CASE expressions
+- Subqueries
+- Window functions
+- Common Table Expressions (CTEs)
+- Temporary tables
+- Views
+- Stored procedures
+- Triggers and events
+
+Files `16 - Data Cleaning.sql` and `17 - Exploratory Data Analysis.sql` apply the concepts above to a real-world layoffs dataset, performing data cleaning and exploratory analysis.
+
+## Source Material
+
+The practice scripts are aligned with the educational structure of the  
+**"MySQL Beginner to Advanced"** YouTube series by **Alex The Analyst**:  
 - https://github.com/AlexTheAnalyst/MySQL-YouTube-Series
 
-This repo is for learning purposes only.
-For portfolio-oriented SQL projects, see my other repositories.
+## Purpose
+
+This repository serves as a fundamentals-focused reference and warm-up resource for MySQL.  
+For full portfolio projects and applied SQL case studies, please see my dedicated project repositories.
