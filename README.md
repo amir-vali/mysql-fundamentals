@@ -1,11 +1,18 @@
 # MySQL Fundamentals
 
-This repository contains a structured collection of SQL scripts covering the essential concepts of MySQL.  
-It serves as a consolidated reference for fundamental topics and hands-on practice across the SQL ecosystem.
+This repository contains a structured collection of SQL scripts covering essential MySQL concepts.
+It serves as a consolidated reference for fundamentals and hands-on practice across common SQL topics.
+
+## Repository Structure
+
+- `lessons/` — Topic-focused practice scripts (core MySQL/SQL fundamentals)
+- `mini-projects/layoffs/` — A small applied mini-project: data cleaning and exploratory analysis on a layoffs dataset
+- `db/` — Database setup scripts (e.g., Parks & Rec sample database)
 
 ## Contents
 
-The files in this repository cover a wide range of foundational MySQL topics, including:
+### Fundamentals (lessons/)
+The `lessons/` folder covers a wide range of foundational MySQL topics, including:
 
 - Basic queries (SELECT, WHERE, ORDER BY)
 - Aggregations and grouping
@@ -19,15 +26,19 @@ The files in this repository cover a wide range of foundational MySQL topics, in
 - Stored procedures
 - Triggers and events
 
-Files `16 - Data Cleaning.sql` and `17 - Exploratory Data Analysis.sql` apply the concepts above to a real-world layoffs dataset, performing data cleaning and exploratory analysis.
+### Mini-project (mini-projects/layoffs/)
+The `mini-projects/layoffs/` folder applies the concepts above to a real-world layoffs dataset:
+
+- `01 - Data Cleaning.sql`
+- `02 - Exploratory Data Analysis.sql`
 
 ## Source Material
 
-The practice scripts are aligned with the educational structure of the  
-**"MySQL Beginner to Advanced"** YouTube series by **Alex The Analyst**:  
+The practice flow is aligned with the educational structure of the
+**"MySQL Beginner to Advanced"** YouTube series by **Alex The Analyst**:
 - https://github.com/AlexTheAnalyst/MySQL-YouTube-Series
 
 ## Purpose
 
-This repository serves as a fundamentals-focused reference and warm-up resource for MySQL.  
-For full portfolio projects and applied SQL case studies, please see my dedicated project repositories.
+This repository is intended as a fundamentals-focused reference and warm-up resource for MySQL.
+For portfolio-oriented SQL projects and end-to-end case studies, please refer to my dedicated portfolio repositories.
